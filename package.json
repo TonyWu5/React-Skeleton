@@ -1,0 +1,30 @@
+{
+  "name": "react-skeleton",
+  "version": "1.0.0",
+  "description": "This is a skeleton repository for react projects, with basic packages set up",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TonyWu5/React-Skeleton.git"
+  },
+  "author": "Tony Wu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TonyWu5/React-Skeleton/issues"
+  },
+  "homepage": "https://github.com/TonyWu5/React-Skeleton#readme",
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.2"
+  }
+}
